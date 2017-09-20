@@ -1,4 +1,4 @@
-# Robotics
+# mBot Line Follower - Ben, Cristina, Jerry
 This is the commit of my line follower maze code. The speed parameter and conditionals are tuned for 3/4" tape and 2 double light sensors. The code has been placed into separate functions and are called accordingly from the main loop. Note the count of left turns and right tunrs; this in theory is supposed to reduce the mBot's chances of getting stuck in a cycle:
 ```
 if(right.readSensors()==2 && rturns<=3){
